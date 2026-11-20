@@ -1,0 +1,17 @@
+# Excel temporary lock and backup files
+~$*.xlsx
+~$*.xlsm
+~$*.xls
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python / Jupyter cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
